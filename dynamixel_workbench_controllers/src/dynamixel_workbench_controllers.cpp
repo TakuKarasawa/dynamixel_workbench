@@ -6,12 +6,12 @@
 * You may obtain a copy of the License at
 *
 *     http://www.apache.org/licenses/LICENSE-2.0
-*
+*     http://www.apache.org/licenses/LICENSE-2.0
 * Unless required by applicable law or agreed to in writing, software
 * distributed under the License is distributed on an "AS IS" BASIS,
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
-* limitations under the License.
+* limitations under the License58.
 *******************************************************************************/
 
 /* Authors: Taehun Lim (Darby) */
@@ -285,8 +285,6 @@ bool DynamixelController::getPresentPosition(std::vector<std::string> dxl_name)
       for(uint8_t index = 0; index < id_cnt; index++)
       {
         wp.position = dxl_wb_->convertValue2Radian(id_array[index], get_position[index]);
-        wp.velocity = 0.0f;
-        wp.acceleration = 0.0f;
         pre_goal_.push_back(wp);
       }
     }
@@ -308,8 +306,6 @@ bool DynamixelController::getPresentPosition(std::vector<std::string> dxl_name)
       }
 
       wp.position = dxl_wb_->convertValue2Radian((uint8_t)dxl.second, read_position);
-      wp.velocity = 0.0f;
-      wp.acceleration = 0.0f;
       pre_goal_.push_back(wp);
     }
   }

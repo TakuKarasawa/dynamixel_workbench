@@ -1,14 +1,10 @@
 # Dynamixel Workbench
 ![](https://github.com/ROBOTIS-GIT/emanual/blob/master/assets/images/sw/dynamixel/dynamixel_workbench/DYNAMIXEL_WORKBENCH_LOGO.png)
 
-[![kinetic-devel Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench/workflows/kinetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench/tree/kinetic-devel)
-[![melodic-devel Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench/workflows/melodic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench/tree/melodic-devel)
-[![noetic-devel Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench/workflows/noetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench/tree/noetic-devel)
-
-[![foxy-devel Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench/workflows/foxy-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench/tree/foxy-devel)
-[![galactic-devel Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench/workflows/galactic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench/tree/galactic-devel)
-[![humble-devel Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench/workflows/humble-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench/tree/humble-devel)
-[![ROS2 Rolling Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench/workflows/ros2-ci/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench/tree/ros2)
+## ROS Packages for Dynamixel Workbench
+|Version|Kinetic + Ubuntu Xenial|Melodic + Ubuntu Bionic|
+|:---:|:---:|:---:|
+|[![GitHub version](https://badge.fury.io/gh/ROBOTIS-GIT%2Fdynamixel-workbench.svg)](https://badge.fury.io/gh/ROBOTIS-GIT%2Fdynamixel-workbench)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/dynamixel-workbench.svg?branch=kinetic-devel)](https://travis-ci.org/ROBOTIS-GIT/dynamixel-workbench)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/dynamixel-workbench.svg?branch=melodic-devel)](https://travis-ci.org/ROBOTIS-GIT/dynamixel-workbench)|
 
 ## ROBOTIS e-Manual for Dynamixel Workbench
 - [ROBOTIS e-Manual for Dynamixel Workbench](http://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_workbench/)
